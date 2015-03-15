@@ -26,7 +26,7 @@ class Status {
 
     // Clear out data from prevous run
     $this->result['status'] = null;
-    $raw = \opcache_get_status($with_scripts);
+    $raw = \opcache_get_status(FALSE);
     $this->result['status'] = $raw;
     return json_encode($this->result);
   }
