@@ -13,6 +13,7 @@ available = {
     'memcached': 'newrelic_plugin_agent.plugins.memcached.Memcached',
     'mongodb': 'newrelic_plugin_agent.plugins.mongodb.MongoDB',
     'nginx': 'newrelic_plugin_agent.plugins.nginx.Nginx',
+    'pdns_recursor': 'newrelic_plugin_agent.plugins.pdns_recursor.PdnsRecursor',
     'pgbouncer': 'newrelic_plugin_agent.plugins.pgbouncer.PgBouncer',
     'php_apc': 'newrelic_plugin_agent.plugins.php_apc.APC',
     'php_fpm': 'newrelic_plugin_agent.plugins.php_fpm.FPM',
